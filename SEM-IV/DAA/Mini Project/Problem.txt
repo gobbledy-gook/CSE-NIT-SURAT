@@ -1,0 +1,6 @@
+The problem is to determine whether or not it is possible to tile the courtyard with these 
+tiles in such a way that no two tiles overlap or leave any part of the courtyard uncovered. 
+The problem statement typically specifies the dimensions of the courtyard and the dimensions 
+of the L-shaped tiles. The problem is often stated as a decision problem: given a rectangular 
+courtyard and L-shaped tiles of a specified size, can the courtyard be tiled with the tiles in 
+a non-overlapping manner?

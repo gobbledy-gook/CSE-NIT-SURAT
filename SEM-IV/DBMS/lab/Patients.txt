@@ -1,0 +1,4 @@
+Sr No | First Name | Last Name | Age | Admission Date | Gender | Area
+1     |Krish       |Ram        |20   |02-02-2020      |M       |Vesu      
+2     |Hare        |Laxman     |40   |02-02-2020      |M       |Surat
+3     |Sita        |Ram        |31   |01-01-2020      |F       |Surat     
