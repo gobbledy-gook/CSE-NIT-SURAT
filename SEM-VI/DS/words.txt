@@ -1,0 +1,15 @@
+hello
+cat
+dot
+eat
+dog
+sleep
+repeat
+cool
+funky
+code
+c
+python
+rust
+ruby
+football
