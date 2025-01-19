@@ -1,0 +1,43 @@
+[Error] TypeError: document.getElementsById is not a function. (In 'document.getElementsById("um")', 'document.getElementsById' is undefined)
+	Global Code (formValidation.html:55)
+> Selected Element
+< <html>…</html>
+> let x = document.getElementById("numb").value;
+< undefined
+> console.log(x)
+[Log] 
+< undefined
+> console.log(x)
+[Log] 
+< undefined
+> document.getElementsById("um").addEventListener("onclick", val(){ 
+< SyntaxError: Unexpected token '{'. Expected ')' to end an argument list.
+> document.getElementsById("um").addEventListener("onclick", val(){ 
+// Get the value of the input field with id="numb"
+  let x = document.getElementById("numb").value;
+  // If x is Not a Number or less than one or greater than 10
+  let text;
+  if (x >= 1 && x <= 10) {
+    text = "Input OK";
+  } 
+    else {
+    text = "Input Invalid";
+  }
+  document.getElementById("demo").innerHTML = text;
+})
+< SyntaxError: Unexpected token '{'. Expected ')' to end an argument list.
+> document.getElementsById("um").addEventListener("onclick", val(){ 
+// Get the value of the input field with id="numb"
+  let x = document.getElementById("numb").value;
+  // If x is Not a Number or less than one or greater than 10
+  let text;
+  if (x >= 1 && x <= 10) {
+    text = "Input OK";
+  } 
+    else {
+    text = "Input Invalid";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+)
+< SyntaxError: Unexpected token '{'. Expected ')' to end an argument list.

@@ -1,0 +1,201 @@
+<html>
+	<head>
+		<title>S/A Opening Form</title>
+	</head>
+
+	<body>
+	<h1 align = "center">SAVING BANK ACCOUNT OPENING FORM</h1>
+	<h2 align = "center">(for BASIC/SMALL SB A/c)</h2>
+	
+	<hr>
+
+	<table>
+		<tr>
+
+		<td width = "60%">
+		<fieldset>
+		<form>	
+		<legend><h3>For Bank Use Only</h3></legend>
+		<p>Name & Code of the Branch</p>
+
+		<table>
+			<tr>
+				<td><label for = "Cust_Id">Cust ID </label></td>
+				<td><input type = "text" id = "Cust_Id" name = "Cust_Id" value=""></td>
+			</tr>
+			<tr>
+				<td><label for = "A/C_No">A/C No. </label></td>
+				<td><input type = "text" id = "A/C_No" name = "A/C_No">
+			</tr>
+		</table>
+		</form>
+		</fieldset></td>
+
+		<td width = "40%">
+		</td>
+		
+		<td width = "10%" align = "right">
+		<form>	
+		<table>
+
+			<tr>
+				<td><label for = "date">Date </label></td>
+				<td><input type = "Date" id = "date" name = "date"></td>
+			</tr>
+			<tr>
+				<td><label for = "time">Time </label></td>
+				<td><input type = "Time" id = "time" name = "time">
+			</tr>
+		</table>
+		</form>
+		</td>
+	</table>
+
+    <fieldset>
+	<legend><h3>Personal Details </h3></legend>
+	<form>
+	<table border = "1px" align = "center" width = "100%">
+		<tr align = "left" height = "35px">
+			<td align = "center" width = "3%">1</td>
+			<td width = "30%"><label for = "name">Name in Full(Mr/Ms)</td>
+			<td widht = "50%" colspan = "3"><input type = "text" id = "name" name = "name"></td>
+			<td width = "12%" rowspan = "4"><img src = "coed.jpg" alt = "Image"></td>
+		</tr>
+		<tr align = "left" height = "35px">
+			<td  align = "center">2</td>
+			<td><label for = "father">Father/Husband/Gaurdian Name </label></td>
+			<td colspan = "3"><input type = "text" id = "father" name = "father"></td>
+		</tr>
+		<tr align = "left" height = "35px">
+			<td align = "center">3</td>
+			<td><label for = "gender">Gender </label></td>
+			<td><input type = "radio" id = "gender" name = "male">Male
+					   <input type = "radio" id = "gender" name = "male">Female</td>
+			<td><label for = "gender">Date of Birth </label></td>
+			<td><input type = "Date" id = "date" name = "date"></td> 	
+		</tr>
+		<tr align = "left" height = "35px">
+			<td  align = "center">4</td>
+			<td><label for = "occupation">Occupation </label></td>
+			<td><input type = "text" id = "occupation" name = "occupation"></td>
+			<td><label for = "category"> Category </label></td>
+			<td><select name="category" id="category">
+						<option value="">--Select Category--</option>
+  						<option value="gen">General</option>
+  						<option value="st">ST</option>
+ 						<option value="sc">SC</option>
+  						<option value="obc">OBC</option>
+					   </select></td>
+		</tr>
+		<tr  align = "left" height = "35px">
+			<td align = "center">5</td>
+			<td><label for = "m_status">Marital Status </label></td>
+			<td colspan = "2"><input type = "radio" id = "married" name = "m_status">Married
+					   <input type = "radio" id = "unmarried" name = "m_status">Unmarried
+					   <input type = "radio" id = "widowed" name = "m_status">Widowed</td>
+			<td align = "right"><input type = "signature" id = "sign" name = "sign">Signature</td>	
+			<td></td>	   
+		</tr>
+	</table>
+	</form>
+	</fieldset>
+
+	<fieldset>
+		<legend><h3>Contact Details</h3></legend>
+		<form>
+		<table  border = "1px" align = "center" width = "100%">
+			<tr align = "left" height = "50px">
+				<td><label for = "contact1"  width = "10%">Moblile No. (1)</label></td>
+				<td><input type = "text" id = "contact1" name = "contact1"></td>
+				<td><label for = "contact2">Moblile No. (2)</label></td>
+				<td><input type = "text" id = "contact2" name = "contact2"></td>
+				<td><label for = "contact3">Telephone/Landline</label></td>
+				<td><input type = "text" id = "contact3" name = "contact3"></td>
+			</tr>
+			<tr align = "left"  height = "50px">
+				<td><label for = "email1"  width = "10%">Personal Email</label></td>
+				<td colspan = "2"><input type = "email" id = "email1" name = "email1"></td>
+				<td><label for = "email2">Professional Email</label></td>
+				<td colspan = "2"><input type = "email" id = "email2" name = "email2"></td>
+			</tr>
+			<tr align = "left"  height = "25px">
+				<td rowspan = "2" width = "10%"><label for = "add1">Current Address</label></td>
+				<td rowspan = "2"><input type = "textarea" id = "add1" name = "add1"></td>
+				<td><label for = "city">Village/City</label></td>
+				<td><input type = "text" id = "city" name = "city"></td>
+				<td><label for = "dist">District</label></td>
+				<td><input type = "text" id = "dist" name = "dist"></td>
+			</tr>
+			<tr align = "left" height = "25px">
+				<td><label for = "state">State</label></td>
+				<td><select name="state" id="state">
+					<option value="">--Select State--</option>
+					  <option value="MH">Maharashtra</option>
+					  <option value="GJ">Gujarat</option>
+					  <option value="RJ">Rajaan</option>
+					  <option value="KT">Karnataka</option>
+					  <option value="WB">West Bengal</option>
+				   </select></td>
+				<td><label for  = "pincode">Pincode</label></td>   
+				<td><input type = "text" id = "pincode" name = "pincode"></td>
+			</tr>
+		</table>
+		</form>	
+	</fieldset>
+
+	<fieldset>
+		<legend><h3>Documents</h3></legend>
+		<form>
+		<table border = "1px" align = "center" width = "100%">
+			<tr align = "left" height = "50px">
+				<td><label for = "aadhaar">Aadhaar Card</label></td>
+				<td><input type = "text" id = "aadhaar" name = "aadhar"></td>
+				<td><input type = "file" id = "aadhaar doc" name = "aadhar doc"></td>
+				<td><label for = "pan">PAN Card</label></td>
+				<td><input type = "text" id = "pan" name = "pan"></td>
+				<td><input type = "file" id = "pan doc" name = "pan doc"></td>
+			</tr>
+			<tr align = "left" height = "50px">
+				<td><label for = "elecbill">Electricity Bill</label></td>
+				<td colspan = "2"><input type = "file" id = "aadhaar doc" name = "elec bill"></td>
+				<td><label for = "gasbill">GAS Bill</label></td>
+				<td colspan = "2"><input type = "file" id = "gas bill" name = "gas bill"></td>	
+			</tr>
+		</table>
+		</form>
+	</fieldset>
+    
+	<br>
+	<hr>
+	<br>
+
+	<p>
+		Please open a Savings Bank account in the name of Mr/Ms. ______________________________ 
+		<br>
+		<br>
+		The Savings Bank rules and regulations including those relating to Small Account have been explained 
+		to me and I agree to abide by the same. An additional photograph is attached.<br>
+	</p>
+
+	<table width = "100%">
+		<tr align = "left">
+			<th width = "5%"><lable for = "date2">Date</lable></th>
+			<th><input type = "date" id = "date2" name = "date2"></th>
+			<th width = "10%"></th>
+			<th width = "5%"><lable for = "place">Place</lable></th>
+			<th><input type = "text" id = "place" name = "place"></th>
+			<th widht = "15%"></th>
+			<th>Signature</th>
+		</tr>
+	</table>
+
+
+	<script>
+		custId = document.getElementById("Cust_Id")
+		console.log(custId.value)
+		// if ((custId.value < 100000) && (custId >10000000)){
+		// 	console.log("Invalid")
+		// }
+	</script>	
+	</body>
+</html>

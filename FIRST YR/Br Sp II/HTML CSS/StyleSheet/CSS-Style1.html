@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Style 1</title>
+        <style>
+            .head{
+    background-color: #11d45f;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.01%;
+    padding-bottom: 0.01%;
+}
+
+h1.head{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+p.head{
+    padding-top: 0%;
+    margin-top: 0%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    margin-right: 5%;
+    float:left;
+    width:30%;
+}
+
+
+.menu li{
+    text-align: left;
+    border: 1px solid #444444;
+    background-color: #eaeeec;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .menu li a{
+    text-decoration: none;
+    color: black;
+ }
+
+.body{
+    float:left;
+    width:65%;
+}
+        </style>
+    </head>
+    <body>
+        <div class = 'head'>
+        <h1 class = 'head'>Welcome to My Homepage</h1>
+        <p class = 'head'>Use the menu to select different Stylesheets</p>
+        </div>
+
+        <div class = 'menu'>
+            <ul>
+                <span><li style = "background-color: #11da5f; color:white;">Stylesheet 1</li></span>
+                <li><a href="CSS-Style2.html">Stylesheet 2</a></li>
+                <li><a href="CSS-Style3.html">Stylesheet 3</a></li>
+                <li><a href="">Stylesheet 4</a></li>
+                <li><a href="CSS-NoStyle.html">No Stylesheet</a></li>
+            </ul>
+        </div>
+
+        <div class = 'body'>
+            <h1>Same Page Different Styles</h1> 
+            <p>This is demonstration of how different styles can change the layout of your HTML page. You can change the 
+                layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
+            <br>
+                <a href ="CSS-Style1.html">Stylesheet 1</a>
+                <a href ='CSS-Style2.html'>Stylesheet 2</a>
+                <a href ='CSS-Style3.html'>Stylesheet 3</a>
+                <a href =''>Stylesheet 4</a>
+                <a href ='CSS-NoStyle.html'>No Stylesheet</a>
+            </p>   
+            
+            <h2>No Styles</h2>
+            <p>This page uses DIV elements to group differnt sections of the HTML page. Click here to see how the page looks like 
+                whith no stylesheet:
+            <br>
+            <a href =''>No Stylesheet</a>
+            </p>
+        </div>
+    </body>
+</html>
