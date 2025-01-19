@@ -1,6 +1,0 @@
-Grey - #646466
-light grey - #DDDBE2
-Background green - #D0FBEA
-button red - #FF9195
-Blue - #608EFF
-green - #52B24D
